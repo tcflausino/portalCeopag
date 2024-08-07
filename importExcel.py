@@ -5,10 +5,10 @@ from mysql.connector import Error
 def connect_to_database():
     try:
         connection = mysql.connector.connect(
-            host="162.215.129.240",
-            user="wwceop_portal",
-            password="Ce@pag23*",
-            database="wwceop_portal"
+            host="",
+            user="",
+            password="",
+            database=""
         )
         if connection.is_connected():
             print("Conectado ao banco de dados")
